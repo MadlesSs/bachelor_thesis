@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b64800ee9e4e3f472500a89542831055\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

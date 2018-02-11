@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b64800ee9e4e3f472500a89542831055\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
