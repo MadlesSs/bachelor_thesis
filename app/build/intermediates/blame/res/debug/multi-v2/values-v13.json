@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-v13/values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
             "map": [
                 {

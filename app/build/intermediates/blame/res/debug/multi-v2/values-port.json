@@ -16,6 +16,21 @@
             ]
         },
         {
+            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
