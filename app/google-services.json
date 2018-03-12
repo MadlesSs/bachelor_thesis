@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "644476717083",
+    "firebase_url": "https://erasmusauth.firebaseio.com",
+    "project_id": "erasmusauth",
+    "storage_bucket": "erasmusauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644476717083:android:8b9b97a0037ec517",
+        "android_client_info": {
+          "package_name": "com.madless.erasmusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644476717083-ltohireua5p5326f9ntp4jvr54h018p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_ZvG3UW_xlnxevo1-Z1wZPIp2ylL-gQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

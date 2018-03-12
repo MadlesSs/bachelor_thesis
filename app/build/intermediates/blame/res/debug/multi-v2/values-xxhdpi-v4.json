@@ -1,55 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/f11ad9ad405c711abdfcd33a89b0156d/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,114",
-                        "endColumns": "58,55",
-                        "endOffsets": "109,165"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/f11ad9ad405c711abdfcd33a89b0156d/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,114",
-                        "endColumns": "58,55",
-                        "endOffsets": "109,165"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/f11ad9ad405c711abdfcd33a89b0156d/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,114",
-                        "endColumns": "58,55",
-                        "endOffsets": "109,165"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.9.aar\\7d2548e02abfa4289e2d0fc92d78141c\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/c09b3aa643747f1abf93c9a5e958fd47/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

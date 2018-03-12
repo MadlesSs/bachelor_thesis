@@ -1,78 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0997ea9518610038bf04baa58dfb2aa0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\fa831d278bbe1d9e0276a9c2415384f7\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b64800ee9e4e3f472500a89542831055\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-v16/values-v16.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -91,41 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0997ea9518610038bf04baa58dfb2aa0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
-            "map": [
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0997ea9518610038bf04baa58dfb2aa0/res/values-v16/values-v16.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/77aa3a51c01282b9ad30d6e6b28caec1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
