@@ -19,12 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-        <activity android:name="com.madless.scannerapp.MainActivity" >
+        <activity android:name="com.madless.scannerapp.SplashScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.madless.scannerapp.MenuActivity" >
         </activity>
 
         <meta-data
