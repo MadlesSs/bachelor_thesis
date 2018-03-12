@@ -18,8 +18,8 @@ public final class R {
         public static final int abc_slide_in_top = 0x7f010007;
         public static final int abc_slide_out_bottom = 0x7f010008;
         public static final int abc_slide_out_top = 0x7f010009;
-        public static final int tooltip_enter = 0x7f01000a;
-        public static final int tooltip_exit = 0x7f01000b;
+        public static final int tooltip_enter = 0x7f01000b;
+        public static final int tooltip_exit = 0x7f01000c;
     }
     public static final class attr {
         public static final int actionBarDivider = 0x7f020000;
@@ -619,13 +619,13 @@ public final class R {
         public static final int default_activity_button = 0x7f07002e;
         public static final int edit_query = 0x7f070030;
         public static final int end_padder = 0x7f070032;
-        public static final int expand_activities_button = 0x7f070033;
-        public static final int expanded_menu = 0x7f070034;
-        public static final int forever = 0x7f070035;
-        public static final int home = 0x7f070036;
-        public static final int icon = 0x7f070038;
-        public static final int icon_group = 0x7f070039;
-        public static final int image = 0x7f07003b;
+        public static final int expand_activities_button = 0x7f070034;
+        public static final int expanded_menu = 0x7f070035;
+        public static final int forever = 0x7f070036;
+        public static final int home = 0x7f070037;
+        public static final int icon = 0x7f070039;
+        public static final int icon_group = 0x7f07003a;
+        public static final int image = 0x7f07003c;
         public static final int info = 0x7f07003d;
         public static final int italic = 0x7f07003e;
         public static final int line1 = 0x7f07003f;

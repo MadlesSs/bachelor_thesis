@@ -920,6 +920,10 @@
         "source": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
         "merged": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/anim/abc_fade_in.xml"
     },
@@ -1500,10 +1504,6 @@
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0997ea9518610038bf04baa58dfb2aa0/res/layout/notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
     },
@@ -1954,6 +1954,10 @@
     {
         "merged": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_activity_menu.xml.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/layout/activity_menu.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/C:\\Users\\Radovan\\Dropbox\\Work\\Android\\ScannerApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -2980,6 +2984,10 @@
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0997ea9518610038bf04baa58dfb2aa0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/anim_mytransition.xml.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/anim/mytransition.xml"
+    },
+    {
         "merged": "/home/radovan/Documents/Projects/Bachelor thesis/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -3214,10 +3222,6 @@
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/aa1600ae4831ca0509a2f2357812477e/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
-        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/Bachelor thesis/ScannerApp/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",

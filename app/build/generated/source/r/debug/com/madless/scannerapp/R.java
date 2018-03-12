@@ -19,8 +19,9 @@ public final class R {
     public static final int abc_slide_in_top=0x7f010007;
     public static final int abc_slide_out_bottom=0x7f010008;
     public static final int abc_slide_out_top=0x7f010009;
-    public static final int tooltip_enter=0x7f01000a;
-    public static final int tooltip_exit=0x7f01000b;
+    public static final int mytransition=0x7f01000a;
+    public static final int tooltip_enter=0x7f01000b;
+    public static final int tooltip_exit=0x7f01000c;
   }
   public static final class attr {
     /**
@@ -2754,16 +2755,16 @@ public final class R {
     public static final int edit_query=0x7f070030;
     public static final int end=0x7f070031;
     public static final int end_padder=0x7f070032;
-    public static final int expand_activities_button=0x7f070033;
-    public static final int expanded_menu=0x7f070034;
-    public static final int forever=0x7f070035;
-    public static final int home=0x7f070036;
-    public static final int homeAsUp=0x7f070037;
-    public static final int icon=0x7f070038;
-    public static final int icon_group=0x7f070039;
-    public static final int ifRoom=0x7f07003a;
-    public static final int image=0x7f07003b;
-    public static final int imageView=0x7f07003c;
+    public static final int erasmus=0x7f070033;
+    public static final int expand_activities_button=0x7f070034;
+    public static final int expanded_menu=0x7f070035;
+    public static final int forever=0x7f070036;
+    public static final int home=0x7f070037;
+    public static final int homeAsUp=0x7f070038;
+    public static final int icon=0x7f070039;
+    public static final int icon_group=0x7f07003a;
+    public static final int ifRoom=0x7f07003b;
+    public static final int image=0x7f07003c;
     public static final int info=0x7f07003d;
     public static final int italic=0x7f07003e;
     public static final int line1=0x7f07003f;
@@ -2872,8 +2873,8 @@ public final class R {
     public static final int abc_search_dropdown_item_icons_2line=0x7f090018;
     public static final int abc_search_view=0x7f090019;
     public static final int abc_select_dialog_material=0x7f09001a;
-    public static final int activity_splash_screen =0x7f09001b;
-    public static final int activity_menu =0x7f09001c;
+    public static final int activity_menu=0x7f09001b;
+    public static final int activity_splash_screen=0x7f09001c;
     public static final int notification_action=0x7f09001d;
     public static final int notification_action_tombstone=0x7f09001e;
     public static final int notification_media_action=0x7f09001f;

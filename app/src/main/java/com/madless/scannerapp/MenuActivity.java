@@ -18,7 +18,6 @@ import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class MenuActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
     final int REQUEST_CODE = 123;
-    private static int SPLASH_TIME_OUT = 1000;
     private ZXingScannerView mZXingScannerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
