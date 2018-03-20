@@ -884,6 +884,10 @@
         "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_test.jpeg.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/drawable/test.jpeg"
+    },
+    {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -1174,6 +1178,10 @@
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-nodpi_nature.jpg.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/drawable-nodpi/nature.jpg"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",

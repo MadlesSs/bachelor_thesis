@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 12 21:54:55 CET 2018
+#Tue Mar 13 00:38:57 CET 2018
 2.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/13
 5.set=DEX
 0.path=classes.dex

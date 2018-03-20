@@ -2,20 +2,31 @@ package com.madless.erasmusapp;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.annotation.ColorRes;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.Display;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.ImageViewTarget;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
 
@@ -26,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @BindViews(value = {R.id.logo,R.id.first,R.id.second,R.id.last})
     protected List<ImageView> sharedElements;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         }
         //load a very big image and resize it, so it fits our needs
         Glide.with(this)
-                .load(R.drawable.busy)
+                .load(R.drawable.test)
                 .asBitmap()
                 .override(screenSize[0]*2,screenSize[1])
                 .diskCacheStrategy(DiskCacheStrategy.RESULT)
@@ -75,4 +87,6 @@ public class LoginActivity extends AppCompatActivity {
         display.getSize(size);
         return new int[]{size.x,size.y};
     }
+
+
 }
