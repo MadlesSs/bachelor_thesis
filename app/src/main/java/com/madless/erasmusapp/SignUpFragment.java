@@ -11,6 +11,7 @@ import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
@@ -143,15 +144,35 @@ public class SignUpFragment extends AuthFragment{
 
     @Override
     public void register() {
-        Log.d("era", "register: SignUpFragment");
         String email = emailET.getText().toString().trim();
         String password = passwordET.getText().toString();
         String confirmPassword = confirmPasswordET.getText().toString();
 
+        if (TextUtils.isEmpty(email)) {
+            Toast.makeText(getContext(), "Email is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (TextUtils.isEmpty(password)) {
+            Toast.makeText(getContext(), "Password is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (TextUtils.isEmpty(confirmPassword)) {
+            Toast.makeText(getContext(), "Confirm password field is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (!password.equals(confirmPassword)) {
+            Toast.makeText(getContext(), "Passwords not matching!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (password.length() < 8) {
+            Toast.makeText(getContext(), "Password is too short!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         progressDialog.setMessage("Registering user...");
         progressDialog.show();
-        Log.d("era", "email" + email);
-        Log.d("era", "passwd" + password);
 
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this.getActivity(), task -> {
@@ -160,7 +181,7 @@ public class SignUpFragment extends AuthFragment{
                         //start menu Activity
                         Toast.makeText(getContext(), "Succesfully registered", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(getContext(), "Registration failed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "Registration failed, user already exists", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
