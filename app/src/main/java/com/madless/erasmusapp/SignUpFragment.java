@@ -1,8 +1,10 @@
 package com.madless.erasmusapp;
 
+import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.TextInputEditText;
@@ -12,14 +14,21 @@ import android.text.Editable;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.transitionseverywhere.ChangeBounds;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
 import com.transitionseverywhere.TransitionSet;
 
 import java.util.List;
+import java.util.concurrent.Executor;
 
+import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;
 
@@ -31,9 +40,21 @@ public class SignUpFragment extends AuthFragment{
             R.id.confirm_password_edit})
     protected List<TextInputEditText> views;
 
+    @BindView(R.id.email_input_edit)
+    TextInputEditText emailET;
+    @BindView(R.id.password_input_edit)
+    TextInputEditText passwordET;
+    @BindView(R.id.confirm_password_edit)
+    TextInputEditText confirmPasswordET;
+
+    private ProgressDialog progressDialog;
+    private FirebaseAuth firebaseAuth;
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        firebaseAuth = FirebaseAuth.getInstance();
+        progressDialog = new ProgressDialog(getContext());
         if(view!=null){
             view.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.color_sign_up));
             caption.setText(getString(R.string.sign_up_label));
@@ -77,7 +98,6 @@ public class SignUpFragment extends AuthFragment{
 
     @Override
     public void fold() {
-        Log.d("era", "fold: SignUpFragment");
         caption.setOnClickListener(null);
         lock=false;
         Rotate transition = new Rotate();
@@ -123,25 +143,30 @@ public class SignUpFragment extends AuthFragment{
 
     @Override
     public void register() {
-        Log.d("era", "register: child");
+        Log.d("era", "register: SignUpFragment");
+        String email = emailET.getText().toString().trim();
+        String password = passwordET.getText().toString();
+        String confirmPassword = confirmPasswordET.getText().toString();
+
+        progressDialog.setMessage("Registering user...");
+        progressDialog.show();
+        Log.d("era", "email" + email);
+        Log.d("era", "passwd" + password);
+
+        firebaseAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this.getActivity(), task -> {
+                    progressDialog.dismiss();
+                    if (task.isSuccessful()) {
+                        //start menu Activity
+                        Toast.makeText(getContext(), "Succesfully registered", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(getContext(), "Registration failed", Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
     @Override
     public void login() {
         Log.d("era", "shouldnt be called");
     }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        Log.d("era", "onStart: SignUpFragment");
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        Log.d("era", "onPause: SignUpFragment");
-    }
-
 }

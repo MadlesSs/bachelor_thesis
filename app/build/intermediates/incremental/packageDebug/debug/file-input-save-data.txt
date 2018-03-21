@@ -1,13 +1,13 @@
 #Internal package file, do not edit.
-#Wed Mar 21 00:53:42 CET 2018
+#Wed Mar 21 21:48:47 CET 2018
 2.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/13
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/11
+3.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/16
 2.set=DEX
 1.path=classes.dex
-4.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/16
+4.base=/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/transforms/dexMerger/debug/17
 count=6
 5.baseType=DIRECTORY
 2.path=classes.dex

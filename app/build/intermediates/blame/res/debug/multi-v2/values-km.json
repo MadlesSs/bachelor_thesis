@@ -21,13 +21,13 @@
                     }
                 },
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/9c12dd6c55fe90f33b987a50ef6d4cca/res/values-km/values.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/5d4017def9f9dc77490f959dbb3bbd97/res/values-km/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
-                        "startOffsets": "283",
+                        "startOffsets": "247",
                         "endColumns": "207",
-                        "endOffsets": "490"
+                        "endOffsets": "454"
                     },
                     "to": {
                         "startLines": "29",
@@ -38,13 +38,13 @@
                     }
                 },
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/values-km/values.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/values-km/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "281,381,568,687,790,1011,1133,1280,1414,1631,1735,1937,2060,2264,2448,2538,2622",
+                        "startOffsets": "245,345,532,651,754,975,1097,1244,1378,1595,1699,1901,2024,2228,2412,2502,2586",
                         "endColumns": "99,186,118,102,220,121,146,133,216,103,201,122,203,183,89,83,101",
-                        "endOffsets": "380,567,686,789,1010,1132,1279,1413,1630,1734,1936,2059,2263,2447,2537,2621,2723"
+                        "endOffsets": "344,531,650,753,974,1096,1243,1377,1594,1698,1900,2023,2227,2411,2501,2585,2687"
                     },
                     "to": {
                         "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",

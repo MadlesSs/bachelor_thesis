@@ -66,7 +66,6 @@ public class LogInFragment extends AuthFragment{
     @Override
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public void fold() {
-        Log.d("era", "fold: LoginFragment");
         caption.setOnClickListener(null);
         lock=false;
         Rotate transition = new Rotate();

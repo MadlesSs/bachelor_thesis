@@ -4,13 +4,13 @@
             "outputFile": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/9c12dd6c55fe90f33b987a50ef6d4cca/res/values-pa/values.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/5d4017def9f9dc77490f959dbb3bbd97/res/values-pa/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
-                        "startOffsets": "283",
+                        "startOffsets": "247",
                         "endColumns": "209",
-                        "endOffsets": "492"
+                        "endOffsets": "456"
                     },
                     "to": {
                         "startLines": "29",
@@ -21,13 +21,13 @@
                     }
                 },
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/values-pa/values.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/values-pa/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "281,386,591,719,826,1032,1159,1298,1427,1648,1755,1959,2089,2301,2488,2580,2672",
+                        "startOffsets": "245,350,555,683,790,996,1123,1262,1391,1612,1719,1923,2053,2265,2452,2544,2636",
                         "endColumns": "104,204,127,106,205,126,138,128,220,106,203,129,211,186,91,91,106",
-                        "endOffsets": "385,590,718,825,1031,1158,1297,1426,1647,1754,1958,2088,2300,2487,2579,2671,2778"
+                        "endOffsets": "349,554,682,789,995,1122,1261,1390,1611,1718,1922,2052,2264,2451,2543,2635,2742"
                     },
                     "to": {
                         "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",

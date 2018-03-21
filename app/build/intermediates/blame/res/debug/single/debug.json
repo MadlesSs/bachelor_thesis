@@ -77,7 +77,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -189,7 +189,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -329,7 +329,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",
@@ -405,7 +405,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
@@ -465,7 +465,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -521,11 +521,11 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -577,7 +577,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
@@ -693,7 +693,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
@@ -777,7 +777,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
@@ -793,7 +793,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -837,7 +837,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -876,16 +876,16 @@
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_test.jpeg.flat",
+        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/drawable/test.jpeg"
+    },
+    {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_test.jpeg.flat",
-        "source": "/home/radovan/Documents/Projects/bachelor_thesis/app/src/main/res/drawable/test.jpeg"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -901,7 +901,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
@@ -933,7 +933,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -969,7 +969,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -1069,7 +1069,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
@@ -1081,7 +1081,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/color/common_google_signin_btn_tint.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1133,7 +1133,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1193,11 +1193,11 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -1305,7 +1305,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1353,7 +1353,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
@@ -1373,7 +1373,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -1389,7 +1389,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1429,7 +1429,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
@@ -1493,7 +1493,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1501,7 +1501,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat",
@@ -1569,7 +1569,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
@@ -1613,7 +1613,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_sign_up_fragment.xml.flat",
@@ -1657,7 +1657,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
@@ -1761,7 +1761,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -1777,7 +1777,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1785,7 +1785,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1813,7 +1813,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1865,11 +1865,11 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
@@ -1881,11 +1881,11 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1901,7 +1901,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1933,7 +1933,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat",
@@ -1949,7 +1949,7 @@
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/1496601028ae57bc5b36de9a3e3dbd76/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/0d1b4c7b8681694064bbb919cb515e33/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
