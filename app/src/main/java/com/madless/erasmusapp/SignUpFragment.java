@@ -9,6 +9,7 @@ import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
@@ -60,6 +61,7 @@ public class SignUpFragment extends AuthFragment{
             caption.setVerticalText(true);
             foldStuff();
             caption.setTranslationX(getTextPadding());
+
         }
     }
 
@@ -75,6 +77,8 @@ public class SignUpFragment extends AuthFragment{
 
     @Override
     public void fold() {
+        Log.d("era", "fold: SignUpFragment");
+        caption.setOnClickListener(null);
         lock=false;
         Rotate transition = new Rotate();
         transition.setEndAngle(-90f);
@@ -116,4 +120,28 @@ public class SignUpFragment extends AuthFragment{
     private float getTextPadding(){
         return getResources().getDimension(R.dimen.folded_label_padding)/2.1f;
     }
+
+    @Override
+    public void register() {
+        Log.d("era", "register: child");
+    }
+
+    @Override
+    public void login() {
+        Log.d("era", "shouldnt be called");
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        Log.d("era", "onStart: SignUpFragment");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d("era", "onPause: SignUpFragment");
+    }
+
 }

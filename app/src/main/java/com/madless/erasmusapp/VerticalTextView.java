@@ -67,7 +67,6 @@ public class VerticalTextView extends AppCompatTextView {
             TextPaint textPaint = getPaint();
             textPaint.setColor(getCurrentTextColor());
             textPaint.drawableState = getDrawableState();
-
             canvas.save();
 
             if (topDown) {

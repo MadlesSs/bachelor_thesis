@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -94,6 +95,11 @@ public abstract class AuthFragment extends Fragment {
             });
             callback.show(this);
             lock=true;
+            if(caption.getText().toString().equals("Sign Up")) {
+                caption.setOnClickListener(view -> register());
+            } else {
+                caption.setOnClickListener(view -> login());
+            }
         }
     }
 
@@ -105,4 +111,7 @@ public abstract class AuthFragment extends Fragment {
         void show(AuthFragment fragment);
         void scale(boolean hasFocus);
     }
+
+    public abstract void register();
+    public abstract void login();
 }

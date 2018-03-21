@@ -11,6 +11,7 @@ import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
@@ -65,6 +66,8 @@ public class LogInFragment extends AuthFragment{
     @Override
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public void fold() {
+        Log.d("era", "fold: LoginFragment");
+        caption.setOnClickListener(null);
         lock=false;
         Rotate transition = new Rotate();
         transition.setEndAngle(-90f);
@@ -105,4 +108,13 @@ public class LogInFragment extends AuthFragment{
         for(View view:views) view.clearFocus();
     }
 
+    @Override
+    public void login() {
+        Log.d("era", "login: logging Child");
+    }
+
+    @Override
+    public void register(){
+        Log.d("era", "shouldnt be called");
+    }
 }
