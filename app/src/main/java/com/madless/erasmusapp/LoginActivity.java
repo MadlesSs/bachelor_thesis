@@ -35,7 +35,7 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity {
 
-    @BindViews(value = {R.id.logo,R.id.first,R.id.second,R.id.last})
+    @BindViews(value = {R.id.first,R.id.second,R.id.last})
     protected List<ImageView> sharedElements;
 
 

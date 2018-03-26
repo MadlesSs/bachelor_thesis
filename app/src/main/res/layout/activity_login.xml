@@ -73,14 +73,4 @@
         app:layout_constraintGuide_begin="@dimen/guideline_margin"
         android:orientation="horizontal" />
 
-    <ImageView
-        android:id="@+id/logo"
-        android:focusable="true"
-        android:src="@drawable/log"
-        android:focusableInTouchMode="true"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_width="@dimen/logo_size"
-        android:layout_height="@dimen/logo_size"/>
 </android.support.constraint.ConstraintLayout>

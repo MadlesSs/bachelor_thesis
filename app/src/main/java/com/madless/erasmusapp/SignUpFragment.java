@@ -1,6 +1,7 @@
 package com.madless.erasmusapp;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -55,6 +56,10 @@ public class SignUpFragment extends AuthFragment{
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         firebaseAuth = FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null) {
+            getActivity().finish();
+            startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
+        }
         progressDialog = new ProgressDialog(getContext());
         if(view!=null){
             view.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.color_sign_up));
@@ -178,8 +183,8 @@ public class SignUpFragment extends AuthFragment{
                 .addOnCompleteListener(this.getActivity(), task -> {
                     progressDialog.dismiss();
                     if (task.isSuccessful()) {
-                        //start menu Activity
-                        Toast.makeText(getContext(), "Succesfully registered", Toast.LENGTH_SHORT).show();
+                        getActivity().finish();
+                        startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
                     } else {
                         Toast.makeText(getContext(), "Registration failed, user already exists", Toast.LENGTH_SHORT).show();
                     }

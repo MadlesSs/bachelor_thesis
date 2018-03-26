@@ -1,6 +1,8 @@
 package com.madless.erasmusapp;
 
 import android.annotation.TargetApi;
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -11,10 +13,13 @@ import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.transitionseverywhere.ChangeBounds;
 import com.transitionseverywhere.Transition;
 import com.transitionseverywhere.TransitionManager;
@@ -22,6 +27,7 @@ import com.transitionseverywhere.TransitionSet;
 
 import java.util.List;
 
+import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;
 
@@ -30,9 +36,24 @@ public class LogInFragment extends AuthFragment{
     @BindViews(value = {R.id.email_input_edit,R.id.password_input_edit})
     protected List<TextInputEditText> views;
 
+    @BindView(R.id.email_input_edit)
+    TextInputEditText emailET;
+
+    @BindView(R.id.password_input_edit)
+    TextInputEditText passwordET;
+
+    private ProgressDialog progressDialog;
+    private FirebaseAuth firebaseAuth;
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        progressDialog = new ProgressDialog(this.getContext());
+        firebaseAuth = FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null) {
+            this.getActivity().finish();
+            startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
+        }
         if(view!=null){
             caption.setText(getString(R.string.log_in_label));
             view.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.color_log_in));
@@ -110,6 +131,29 @@ public class LogInFragment extends AuthFragment{
     @Override
     public void login() {
         Log.d("era", "login: logging Child");
+        String email = emailET.getText().toString().trim();
+        String password = passwordET.getText().toString();
+        if (TextUtils.isEmpty(email)) {
+            Toast.makeText(getContext(), "Email is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (TextUtils.isEmpty(password)) {
+            Toast.makeText(getContext(), "Password is empty!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        progressDialog.setMessage("Logging in");
+        progressDialog.show();
+        firebaseAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this.getActivity(), task-> {
+                    progressDialog.dismiss();
+                    if (task.isSuccessful()) {
+                        Log.d("era", "login: succesfull");
+                        this.getActivity().finish();
+                        startActivity(new Intent(getActivity().getApplicationContext(),
+                                MenuActivity.class));
+                    }
+                });
     }
 
     @Override
