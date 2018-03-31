@@ -58,7 +58,7 @@ public class SignUpFragment extends AuthFragment{
         firebaseAuth = FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() != null) {
             getActivity().finish();
-            startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
+            startActivity(new Intent(getActivity().getApplicationContext(), TripsList.class));
         }
         progressDialog = new ProgressDialog(getContext());
         if(view!=null){

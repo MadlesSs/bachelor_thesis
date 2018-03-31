@@ -4,7 +4,7 @@
             "outputFile": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e60c6dd4da4a0d86f7282c82594c84c0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6ebbb39db04d5611aec5f1d39ec1e975/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/84c27cf0abb8417fbaf5d08d30c7153b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c94b313d7a51bc47ba54fd7be82f7a1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

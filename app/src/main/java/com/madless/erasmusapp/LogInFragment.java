@@ -52,7 +52,7 @@ public class LogInFragment extends AuthFragment{
         firebaseAuth = FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() != null) {
             this.getActivity().finish();
-            startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
+            startActivity(new Intent(getActivity().getApplicationContext(), TripsList.class));
         }
         if(view!=null){
             caption.setText(getString(R.string.log_in_label));

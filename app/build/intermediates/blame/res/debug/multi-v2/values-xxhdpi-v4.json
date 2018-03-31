@@ -4,7 +4,7 @@
             "outputFile": "/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/c09b3aa643747f1abf93c9a5e958fd47/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "source": "/home/radovan/.gradle/caches/transforms-1/files-1.1/core-1.9.aar/2f678cdc2d1fe4d2d2e763b46a359558/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
