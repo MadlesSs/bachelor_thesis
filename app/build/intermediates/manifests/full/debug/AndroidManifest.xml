@@ -43,6 +43,7 @@
             android:screenOrientation="portrait" />
         <activity android:name="com.madless.erasmusapp.TripsList" />
         <activity android:name="com.madless.erasmusapp.TripsFragment" />
+        <activity android:name="com.madless.erasmusapp.StudentsList" />
 
         <meta-data
             android:name="android.support.VERSION"

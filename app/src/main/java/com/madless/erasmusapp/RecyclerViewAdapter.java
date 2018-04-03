@@ -1,0 +1,74 @@
+package com.madless.erasmusapp;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.List;
+
+public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>{
+
+    Context mContext;
+    List<Student> mData;
+    Dialog myDialog;
+
+    public RecyclerViewAdapter(Context mContext, List<Student> mData) {
+        this.mContext = mContext;
+        this.mData = mData;
+    }
+
+    @Override
+    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view;
+        view = LayoutInflater.from(mContext).inflate(R.layout.student_row, parent, false);
+        MyViewHolder vHolder = new MyViewHolder(view);
+
+        myDialog = new Dialog(mContext);
+        myDialog.setContentView(R.layout.dialog_contact);
+        myDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+
+        vHolder.rowStudent.setOnClickListener(view1 -> {
+            TextView dialog_name = myDialog.findViewById(R.id.dialog_name);
+            TextView dialog_number = myDialog.findViewById(R.id.dialog_number);
+            dialog_name.setText(mData.get(vHolder.getAdapterPosition()).getName());
+            dialog_number.setText(mData.get(vHolder.getAdapterPosition()).getNumber());
+            myDialog.show();
+        });
+
+        return vHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(MyViewHolder holder, int position) {
+        holder.tvName.setText(mData.get(position).getName());
+        holder.tvNumber.setText(mData.get(position).getNumber());
+    }
+
+    @Override
+    public int getItemCount() {
+        return mData.size();
+    }
+
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
+
+
+        private LinearLayout rowStudent;
+        private TextView tvName;
+        private TextView tvNumber;
+        public MyViewHolder(View itemView) {
+            super(itemView);
+            rowStudent = itemView.findViewById(R.id.student_row_id);
+            tvName = itemView.findViewById(R.id.student_name);
+            tvNumber = itemView.findViewById(R.id.student_phone);
+        }
+    }
+}

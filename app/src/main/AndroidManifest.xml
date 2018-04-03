@@ -25,7 +25,8 @@
             android:name=".LoginActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".TripsList" />
-        <activity android:name=".TripsFragment"></activity>
+        <activity android:name=".TripsFragment" />
+        <activity android:name=".StudentsList"></activity>
     </application>
 
 </manifest>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.jakewharton:butterknife:8.5.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/8c31384c79312226e93c532cee5391fe/AndroidManifest.xml:2:1-7:12
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:design:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c94b313d7a51bc47ba54fd7be82f7a1/AndroidManifest.xml:17:1-31:12
@@ -41,20 +41,20 @@ MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/radova
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/449e11b7f71bd57e9bd7c875b0479562/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/6f5bf81112605b690cf7ef638f468fda/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d3a1f2fed3bde7fa94948386023c996a/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:11-69
@@ -73,7 +73,7 @@ MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/radovan/.gradle/cach
 	android:name
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:8:5-29:19
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:8:5-30:19
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:12:5-20
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:design:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c94b313d7a51bc47ba54fd7be82f7a1/AndroidManifest.xml:25:5-29:19
@@ -187,9 +187,13 @@ ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/Android
 	android:name
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:27:19-44
 activity#com.madless.erasmusapp.TripsFragment
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:9-60
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:9-51
 	android:name
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:19-48
+activity#com.madless.erasmusapp.StudentsList
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:29:9-59
+	android:name
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:29:19-47
 uses-sdk
 INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
