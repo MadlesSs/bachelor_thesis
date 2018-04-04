@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
 MERGED from [com.jakewharton:butterknife:8.5.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/8c31384c79312226e93c532cee5391fe/AndroidManifest.xml:2:1-7:12
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:design:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c94b313d7a51bc47ba54fd7be82f7a1/AndroidManifest.xml:17:1-31:12
@@ -25,6 +25,7 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/radovan/.gradle/c
 MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/keyboardvisibilityevent-2.1.0.aar/0dc0a664d9cee70ffdd913000c876f02/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/AndroidScrollingImageView-1.2.aar/cdccfd432745d2242f7c0a182b4cd014/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e28d4996d227c3469553dc42cec70693/AndroidManifest.xml:2:1-11:12
+MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bcc8f111616345f1ceb50e28ac675e1f/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a9f85b332ca5a9b418e080a6068cf43d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b32f7a6522d3a07cbaa0d70d20362ad0/AndroidManifest.xml:17:1-31:12
@@ -41,29 +42,31 @@ MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/radova
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/449e11b7f71bd57e9bd7c875b0479562/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/6f5bf81112605b690cf7ef638f468fda/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d3a1f2fed3bde7fa94948386023c996a/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:4:5-51
 	android:versionCode
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:5:5-65
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:6:5-65
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:6:22-62
 uses-permission#android.permission.INTERNET
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/dbbb96c15680a5919a275de4406ab4f3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/dbbb96c15680a5919a275de4406ab4f3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/64ff9368c0483be0e3d84f8962e07173/AndroidManifest.xml:23:5-67
@@ -71,13 +74,13 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/radovan/.
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/e1bc79b8c960adfef298fc72feed4f1a/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/radovan/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/e1bc79b8c960adfef298fc72feed4f1a/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:7:5-69
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:8:5-69
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:7:22-66
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:8:22-66
 application
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:9:5-31:19
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:10:5-34:19
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:12:5-20
 MERGED from [com.andkulikov:transitionseverywhere:1.7.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/transitionseverywhere-1.7.4.aar/38fb2a7d2884832b5aaee169455bfb83/AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:design:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c94b313d7a51bc47ba54fd7be82f7a1/AndroidManifest.xml:25:5-29:19
@@ -114,6 +117,8 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/radovan/.gradle/c
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/2ae5daf4123824e800eb698959ac3762/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e28d4996d227c3469553dc42cec70693/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e28d4996d227c3469553dc42cec70693/AndroidManifest.xml:9:5-20
+MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:11:5-15:19
+MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bcc8f111616345f1ceb50e28ac675e1f/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bcc8f111616345f1ceb50e28ac675e1f/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-fragment:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a9f85b332ca5a9b418e080a6068cf43d/AndroidManifest.xml:25:5-29:19
@@ -147,57 +152,60 @@ MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/radovan/.gra
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d3a1f2fed3bde7fa94948386023c996a/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d3a1f2fed3bde7fa94948386023c996a/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:15:9-59
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:17:9-56
+		REJECTED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:14:9-40
+	tools:replace
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:16:9-38
 activity#com.madless.erasmusapp.SplashScreenActivity
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:16:9-23:20
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:19:9-26:20
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:16:19-55
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:19:19-55
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:17:13-22:29
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:20:13-25:29
 action#android.intent.action.VIEW
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:21:25-66
 action#android.intent.action.MAIN
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.madless.erasmusapp.MenuActivity
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:24:9-50
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:24:19-47
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.madless.erasmusapp.LoginActivity
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:25:9-27:52
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:9-30:52
 	android:screenOrientation
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:27:13-49
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:30:13-49
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:26:13-42
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:29:13-42
 activity#com.madless.erasmusapp.TripsList
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:9-47
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:31:9-47
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:28:19-44
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:31:19-44
 activity#com.madless.erasmusapp.TripsFragment
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:29:9-51
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:29:19-48
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:32:19-48
 activity#com.madless.erasmusapp.StudentsList
-ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:30:9-49
+ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:33:9-49
 	android:name
-		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:30:19-47
+		ADDED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml:33:19-47
 uses-sdk
 INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/radovan/Documents/Projects/bachelor_thesis/app/src/main/AndroidManifest.xml
@@ -244,6 +252,8 @@ MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/radovan/.gradle
 MERGED from [com.github.Q42:AndroidScrollingImageView:1.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/AndroidScrollingImageView-1.2.aar/cdccfd432745d2242f7c0a182b4cd014/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e28d4996d227c3469553dc42cec70693/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/radovan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e28d4996d227c3469553dc42cec70693/AndroidManifest.xml:5:5-7:41
+MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:7:5-9:41
+MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.0.4] /home/radovan/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/6a67e8963d112fae0371447b096ed431/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bcc8f111616345f1ceb50e28ac675e1f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/bcc8f111616345f1ceb50e28ac675e1f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:26.1.0] /home/radovan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a9f85b332ca5a9b418e080a6068cf43d/AndroidManifest.xml:21:5-23:60
