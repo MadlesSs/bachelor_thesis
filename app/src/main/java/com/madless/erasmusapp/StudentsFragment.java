@@ -34,10 +34,10 @@ public class StudentsFragment extends android.support.v4.app.Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         listStudent = new ArrayList<>();
         listStudent.add(new Student("Dominika Gasparova", "0905xxxxxx"));
         listStudent.add(new Student("Martin Pribilovic", "0905xxxxxx"));
         listStudent.add(new Student("Tomas Cellar", "0905xxxxxx"));
     }
+
 }
