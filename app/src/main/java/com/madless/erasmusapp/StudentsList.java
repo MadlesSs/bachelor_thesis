@@ -23,11 +23,14 @@ public class StudentsList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_students_list);
         tabLayout = findViewById(R.id.tablayout_id);
         viewPager = findViewById(R.id.viewpager_id);
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new StudentsFragment(), "Unchecked");
+        Fragment studentsFragment = new StudentsFragment();
+        studentsFragment.setArguments(getIntent().getExtras());
+        adapter.addFragment(studentsFragment, "Unchecked");
         adapter.addFragment(new CheckedStudentsFragment(), "Checked");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
