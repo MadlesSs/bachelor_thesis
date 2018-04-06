@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_TYPE_CHANGE"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.0"
-    timestamp="1522969366030"
+    timestamp="1523049046265"
     token="6622139087545707505"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="777" />
+        duration="932" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="8" />
+        duration="92" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
         location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -30,7 +30,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1522963833609"
+        timestamp="1523042622895"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -74,26 +74,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1522967014399"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1522969366030"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1523049046265"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"

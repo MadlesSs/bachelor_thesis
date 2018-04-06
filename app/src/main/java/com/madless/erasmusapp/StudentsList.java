@@ -29,9 +29,11 @@ public class StudentsList extends AppCompatActivity {
         viewPager = findViewById(R.id.viewpager_id);
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         Fragment studentsFragment = new StudentsFragment();
+        Fragment checkedStudentsFragment = new CheckedStudentsFragment();
         studentsFragment.setArguments(getIntent().getExtras());
+        checkedStudentsFragment.setArguments(getIntent().getExtras());
         adapter.addFragment(studentsFragment, "Unchecked");
-        adapter.addFragment(new CheckedStudentsFragment(), "Checked");
+        adapter.addFragment(checkedStudentsFragment, "Checked");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {

@@ -1,7 +1,11 @@
 package com.madless.erasmusapp;
 
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -33,7 +37,8 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
     private ZXingScannerView mZXingScannerView;
     private DatabaseReference databaseStudents;
     private DatabaseReference databaseTrips;
-    private List<Integer> studentids;
+    private List<StudentCheck> studentChecks;
+    private int tripId;
 
     public StudentsFragment() {
     }
@@ -43,17 +48,16 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.students_fragment, container, false);
         recyclerView = v.findViewById(R.id.students_recycler);
-        int id = Integer.parseInt(getArguments().getString("id"));
-        Log.d("era", "onCreateView: " + id);
+        int tripId = Integer.parseInt(getArguments().getString("id"));
+        Log.d("era", "onCreateView: " + tripId);
 
         databaseTrips.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     DataItem item = child.getValue(DataItem.class);
-                    if (item.id == id) {
-                        studentids = item.studentids;
-                        Log.d("era", "onDataChange: studentIds size" + studentids.get(1));
+                    if (item.id == tripId) {
+                        studentChecks = item.studentCheck;
                         break;
                     }
                 }
@@ -70,8 +74,10 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
                 listStudent.clear();
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     Student student = child.getValue(Student.class);
-                    if (!student.isChecked() && studentids.contains(student.getId())) {
-                        listStudent.add(student);
+                    for (StudentCheck check : studentChecks) {
+                        if (check.getId() == student.getId() && !check.isChecked()) {
+                            listStudent.add(student);
+                        }
                     }
                 }
                 RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getContext(), listStudent);
@@ -86,15 +92,14 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
         });
         btnFab = v.findViewById(R.id.custom_fab);
         btnFab.setOnClickListener(view -> {
-            markStudentChecked();
-//            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-//                ActivityCompat.requestPermissions(getActivity(),
-//                        new String[] {Manifest.permission.CAMERA}, REQUEST_CODE);
-//                return;
-//            }
-//            getActivity().setContentView(mZXingScannerView);
-//            mZXingScannerView.setResultHandler(this);
-//            mZXingScannerView.startCamera();
+            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(getActivity(),
+                        new String[] {Manifest.permission.CAMERA}, REQUEST_CODE);
+                return;
+            }
+            getActivity().setContentView(mZXingScannerView);
+            mZXingScannerView.setResultHandler(this);
+            mZXingScannerView.startCamera();
         });
         return v;
     }
@@ -111,13 +116,22 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
 
     @Override
     public void handleResult(Result result) {
+        for (Student student : listStudent) {
+            if (student.getNumber().equals(result.getText())) {
+                markStudentChecked(student.getId());
+            }
+        }
         Toast.makeText(getContext(), result.getText(), Toast.LENGTH_SHORT).show();
         mZXingScannerView.resumeCameraPreview(this);
+        getActivity().finish();
+        Intent intent = new Intent(getContext(), StudentsList.class);
+        intent.putExtra("id", String.valueOf(tripId));
+        getContext().startActivity(intent);
     }
 
-    public void markStudentChecked() {
-        databaseStudents.child("0").child("checked").setValue(true);
-
-
+    public void markStudentChecked(int id) {
+        databaseTrips.child(String.valueOf(tripId)).child("studentCheck")
+                .child(String.valueOf(id)).child("checked").setValue(true);
     }
+
 }

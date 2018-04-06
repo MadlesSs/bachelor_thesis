@@ -49,7 +49,6 @@ public class TripsFragment extends Fragment {
                 listTrips.clear();
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     DataItem item = child.getValue(DataItem.class);
-                    Log.d("era", "onDataChange: " + item.studentids.size());
                     listTrips.add(item);
                 }
                 adapter = new TripsAdapter(getActivity(), listTrips);
