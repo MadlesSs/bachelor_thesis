@@ -9,11 +9,15 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -38,7 +42,15 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
     private DatabaseReference databaseStudents;
     private DatabaseReference databaseTrips;
     private List<StudentCheck> studentChecks;
+    private List<Integer> checkedStudentIds;
+    private List<Student> registeredStudents;
+    private View customToastLayout;
     private int tripId;
+    private ImageView customToastImg;
+    private TextView customToastTxt;
+    private Toast customToast;
+    private int imgYes;
+    private int imgNo;
 
     public StudentsFragment() {
     }
@@ -48,17 +60,23 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.students_fragment, container, false);
         recyclerView = v.findViewById(R.id.students_recycler);
-        int tripId = Integer.parseInt(getArguments().getString("id"));
-        Log.d("era", "onCreateView: " + tripId);
-
+        tripId = Integer.parseInt(getArguments().getString("id"));
+        Log.d("era", "onCreateView: tripId " + tripId);
         databaseTrips.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                checkedStudentIds.clear();
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     DataItem item = child.getValue(DataItem.class);
                     if (item.id == tripId) {
                         studentChecks = item.studentCheck;
                         break;
+                    }
+                }
+                for (StudentCheck check : studentChecks) {
+                    Log.d("era", "onDataChange: " + check.getId());
+                    if (check.isChecked()) {
+                        checkedStudentIds.add(check.getId());
                     }
                 }
             }
@@ -75,8 +93,13 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     Student student = child.getValue(Student.class);
                     for (StudentCheck check : studentChecks) {
-                        if (check.getId() == student.getId() && !check.isChecked()) {
-                            listStudent.add(student);
+                        if (check.getId() == student.getId()) {
+                            registeredStudents.add(student);
+                            if (!check.isChecked()) {
+                                listStudent.add(student);
+                            } else {
+                                checkedStudentIds.add(check.getId());
+                            }
                         }
                     }
                 }
@@ -105,33 +128,94 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
     }
 
     @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        customToastLayout = getLayoutInflater().inflate(R.layout.custom_toast,
+                view.findViewById(R.id.toast_layout_root));
+        customToastImg = customToastLayout.findViewById(R.id.toast_image);
+        customToastTxt = customToastLayout.findViewById(R.id.toast_text);
+        customToast = new Toast(getActivity().getApplicationContext());
+        customToast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+        customToast.setDuration(Toast.LENGTH_SHORT);
+        customToast.setView(customToastLayout);
+
+    }
+
+    @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         databaseStudents = FirebaseDatabase.getInstance().getReference("students");
         databaseTrips = FirebaseDatabase.getInstance().getReference("trips");
         mZXingScannerView = new ZXingScannerView(getContext());
         listStudent = new ArrayList<>();
+        checkedStudentIds = new ArrayList<>();
+        registeredStudents = new ArrayList<>();
+        imgYes = R.drawable.yes;
+        imgNo = R.drawable.no;
 
     }
 
     @Override
     public void handleResult(Result result) {
+        boolean found = false;
+        String number = result.getText();
         for (Student student : listStudent) {
-            if (student.getNumber().equals(result.getText())) {
+            if (student.getNumber().equals(number)) {
+                // student registered for a trip and not checked yet
                 markStudentChecked(student.getId());
+                customToastImg.setImageResource(imgYes);
+                customToastTxt.setText("Code scanned succesfully.");
+                found = true;
+                break;
             }
         }
-        Toast.makeText(getContext(), result.getText(), Toast.LENGTH_SHORT).show();
-        mZXingScannerView.resumeCameraPreview(this);
-        getActivity().finish();
+        for (Student student : registeredStudents) {
+            if (student.getNumber().equals(number)
+                    && checkedStudentIds.contains(student.getId())) {
+                customToastImg.setImageResource(imgNo);
+                customToastTxt.setText("QR code scanned already.");
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            customToastImg.setImageResource(imgNo);
+            customToastTxt.setText("User not registered.");
+        }
+        customToast.show();
+
         Intent intent = new Intent(getContext(), StudentsList.class);
         intent.putExtra("id", String.valueOf(tripId));
+        Log.d("era", "handleResult: tripId " + tripId);
+        getActivity().finish();
         getContext().startActivity(intent);
+
     }
 
     public void markStudentChecked(int id) {
-        databaseTrips.child(String.valueOf(tripId)).child("studentCheck")
-                .child(String.valueOf(id)).child("checked").setValue(true);
+
+        final String[] key = {""};
+        databaseTrips.child(String.valueOf(tripId)).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot check : dataSnapshot.child("studentCheck").getChildren()) {
+                    Log.d("era", "markStudentChecked: " + (long) check.child("id").getValue());
+                    if ((long) check.child("id").getValue() == id) {
+                        Log.d("era", "markign student on key" + check.getKey());
+                        databaseTrips.child(String.valueOf(tripId)).child("studentCheck")
+                                .child(String.valueOf(check.getKey())).child("checked").setValue(true);
+                        //key[0] = String.valueOf(check.getKey());
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        Log.d("era", "markStudentChecked: checking! " + key[0] );
+
     }
 
 }
