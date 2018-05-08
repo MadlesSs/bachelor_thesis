@@ -50,7 +50,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             btnCall.setOnClickListener(view2 -> {
                 Intent intent = new Intent(Intent.ACTION_CALL,
                         Uri.parse("tel:" + dialog_number.getText().toString()));
-                if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.CALL_PHONE)
+                                            != PackageManager.PERMISSION_GRANTED) {
                     return;
                 }
                 mContext.startActivity(intent);

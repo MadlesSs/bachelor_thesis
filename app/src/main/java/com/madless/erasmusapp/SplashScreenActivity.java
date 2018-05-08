@@ -21,13 +21,10 @@ public class SplashScreenActivity extends AppCompatActivity {
         Animation transitionAnimation = AnimationUtils.loadAnimation(this, R.anim.mytransition);
         iv.startAnimation(transitionAnimation);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent homeIntent = new Intent(SplashScreenActivity.this, LoginActivity.class);
-                startActivity(homeIntent);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            Intent homeIntent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+            startActivity(homeIntent);
+            finish();
         }, SPLASH_TIME_OUT);
     }
 }

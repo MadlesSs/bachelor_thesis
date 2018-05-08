@@ -1,6 +1,7 @@
 package com.madless.erasmusapp;
 
 import android.app.Fragment;
+import android.app.ProgressDialog;
 import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -29,6 +31,7 @@ public class TripsFragment extends Fragment {
     private RecyclerView recyclerView;
     private DatabaseReference databaseTrips;
     private List<DataItem> listTrips;
+    private ProgressDialog dialog;
 
     TripsAdapter adapter;
 
@@ -37,6 +40,9 @@ public class TripsFragment extends Fragment {
         super.onCreate(savedInstanceState);
         databaseTrips = FirebaseDatabase.getInstance().getReference("trips");
         listTrips = new ArrayList<>();
+        dialog = new ProgressDialog(getActivity());
+        dialog.setMessage("loading trips");
+        dialog.show();
     }
 
     @Nullable
@@ -55,6 +61,7 @@ public class TripsFragment extends Fragment {
                 recyclerView = view.findViewById(R.id.tripsRecyclerView);
                 recyclerView.setAdapter(adapter);
                 recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+                dialog.hide();
             }
 
             @Override

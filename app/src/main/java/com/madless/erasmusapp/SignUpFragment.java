@@ -184,7 +184,7 @@ public class SignUpFragment extends AuthFragment{
                     progressDialog.dismiss();
                     if (task.isSuccessful()) {
                         getActivity().finish();
-                        startActivity(new Intent(getActivity().getApplicationContext(), MenuActivity.class));
+                        startActivity(new Intent(getActivity().getApplicationContext(), TripsList.class));
                     } else {
                         Toast.makeText(getContext(), "Registration failed, user already exists", Toast.LENGTH_SHORT).show();
                     }

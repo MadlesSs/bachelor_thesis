@@ -151,7 +151,7 @@ public class LogInFragment extends AuthFragment{
                         Log.d("era", "login: succesfull");
                         this.getActivity().finish();
                         startActivity(new Intent(getActivity().getApplicationContext(),
-                                MenuActivity.class));
+                                TripsList.class));
                     }
                 });
     }

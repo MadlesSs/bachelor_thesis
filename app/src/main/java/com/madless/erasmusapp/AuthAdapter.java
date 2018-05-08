@@ -19,19 +19,16 @@ public class AuthAdapter extends FragmentStatePagerAdapter
 
     private final AnimatedViewPager pager;
     private final SparseArray<AuthFragment> authArray;
-    private final List<ImageView> sharedElements;
     private final ImageView authBackground;
     private float factor;
 
     public AuthAdapter(FragmentManager manager,
                        AnimatedViewPager pager,
-                       ImageView authBackground,
-                       List<ImageView> sharedElements){
+                       ImageView authBackground){
         super(manager);
         this.authBackground=authBackground;
         this.pager=pager;
         this.authArray=new SparseArray<>(getCount());
-        this.sharedElements=sharedElements;
         pager.setDuration(350);
         final float textSize=pager.getResources().getDimension(R.dimen.folded_size);
         final float textPadding=pager.getResources().getDimension(R.dimen.folded_label_padding);
@@ -70,16 +67,9 @@ public class AuthAdapter extends FragmentStatePagerAdapter
         final Context context=pager.getContext();
         //since we're clipping the page, we have to adjust the shared elements
         AnimatorSet shiftAnimator=new AnimatorSet();
-        for(View view:sharedElements){
-            float translationX=forward?pageOffsetX:-pageOffsetX;
-            float temp=view.getWidth()/3f;
-            translationX-=forward?temp:-temp;
-            ObjectAnimator shift= ObjectAnimator.ofFloat(view, View.TRANSLATION_X,0,translationX);
-            shiftAnimator.playTogether(shift);
-        }
 
         int color= ContextCompat.getColor(context,forward?R.color.color_logo_sign_up:R.color.color_logo_log_in);
-        DrawableCompat.setTint(sharedElements.get(0).getDrawable(),color);
+//        DrawableCompat.setTint(sharedElements.get(0).getDrawable(),color);
         //scroll the background by x
         int offset=authBackground.getWidth()/2;
         ObjectAnimator scrollAnimator= ObjectAnimator.ofInt(authBackground,"scrollX",forward?offset:-offset);
@@ -94,11 +84,11 @@ public class AuthAdapter extends FragmentStatePagerAdapter
 
         final float scale=hasFocus?1:1.4f;
         final float logoScale=hasFocus?0.75f:1f;
-        View logo=sharedElements.get(0);
+//        View logo=sharedElements.get(0);
 
         AnimatorSet scaleAnimation=new AnimatorSet();
-        scaleAnimation.playTogether(ObjectAnimator.ofFloat(logo, View.SCALE_X,logoScale));
-        scaleAnimation.playTogether(ObjectAnimator.ofFloat(logo, View.SCALE_Y,logoScale));
+//        scaleAnimation.playTogether(ObjectAnimator.ofFloat(logo, View.SCALE_X,logoScale));
+//        scaleAnimation.playTogether(ObjectAnimator.ofFloat(logo, View.SCALE_Y,logoScale));
         scaleAnimation.playTogether(ObjectAnimator.ofFloat(authBackground, View.SCALE_X,scale));
         scaleAnimation.playTogether(ObjectAnimator.ofFloat(authBackground, View.SCALE_Y,scale));
         scaleAnimation.setDuration(200);

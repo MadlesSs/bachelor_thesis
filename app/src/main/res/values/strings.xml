@@ -8,4 +8,10 @@
     <string name="password_hint">Password</string>
     <string name="email_hint">Email</string>
     <string name="confirm_hint">Confirm Password</string>
+    <string name="trip_title">Trip title</string>
+    <string name="mobile_call">Mobile call</string>
+    <string name="send_message">Send message</string>
+    <string name="scan_successfull">Code scanned successfully.</string>
+    <string name="code_scanned_already">QR code scanned already.</string>
+    <string name="user_not_on_list">User not registered.</string>
 </resources>

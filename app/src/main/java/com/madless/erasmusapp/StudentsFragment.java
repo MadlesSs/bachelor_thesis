@@ -17,7 +17,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -61,7 +60,6 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
         v = inflater.inflate(R.layout.students_fragment, container, false);
         recyclerView = v.findViewById(R.id.students_recycler);
         tripId = Integer.parseInt(getArguments().getString("id"));
-        Log.d("era", "onCreateView: tripId " + tripId);
         databaseTrips.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -115,7 +113,10 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
         });
         btnFab = v.findViewById(R.id.custom_fab);
         btnFab.setOnClickListener(view -> {
-            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA)
+                    != PackageManager.PERMISSION_GRANTED && ActivityCompat
+                    .checkSelfPermission(getContext(), Manifest.permission.CAMERA)
+                    != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(getActivity(),
                         new String[] {Manifest.permission.CAMERA}, REQUEST_CODE);
                 return;
@@ -164,7 +165,7 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
                 // student registered for a trip and not checked yet
                 markStudentChecked(student.getId());
                 customToastImg.setImageResource(imgYes);
-                customToastTxt.setText("Code scanned succesfully.");
+                customToastTxt.setText(R.string.scan_successfull);
                 found = true;
                 break;
             }
@@ -173,14 +174,15 @@ public class StudentsFragment extends android.support.v4.app.Fragment implements
             if (student.getNumber().equals(number)
                     && checkedStudentIds.contains(student.getId())) {
                 customToastImg.setImageResource(imgNo);
-                customToastTxt.setText("QR code scanned already.");
+                customToastTxt.setText(R.string.code_scanned_already);
                 found = true;
                 break;
             }
         }
         if (!found) {
             customToastImg.setImageResource(imgNo);
-            customToastTxt.setText("User not registered.");
+            customToastTxt.setText(R.string.user_not_on_list);
+            Log.e("era", "handleResult: QR result" + result.getText() + " not on list." );
         }
         customToast.show();
 

@@ -35,8 +35,6 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity {
 
-    @BindViews(value = {R.id.first,R.id.second,R.id.last})
-    protected List<ImageView> sharedElements;
 
 
     @Override
@@ -48,10 +46,6 @@ public class LoginActivity extends AppCompatActivity {
         final ImageView background= ButterKnife.findById(this,R.id.scrolling_background);
         int[] screenSize=screenSize();
 
-        for(ImageView element:sharedElements){
-            @ColorRes int color=element.getId()!=R.id.logo?R.color.white_transparent:R.color.color_logo_log_in;
-            DrawableCompat.setTint(element.getDrawable(), ContextCompat.getColor(this,color));
-        }
         //load a very big image and resize it, so it fits our needs
         Glide.with(this)
                 .load(R.drawable.test)
@@ -74,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                             set.start();
                         });
                         pager.post(()->{
-                            AuthAdapter adapter = new AuthAdapter(getSupportFragmentManager(), pager, background, sharedElements);
+                            AuthAdapter adapter = new AuthAdapter(getSupportFragmentManager(), pager, background);
                             pager.setAdapter(adapter);
                         });
                     }

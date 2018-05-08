@@ -12,6 +12,6 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/colorWhite"
-        android:text="Dummy text"/>
+        android:text="@string/trip_title"/>
 
 </LinearLayout>
