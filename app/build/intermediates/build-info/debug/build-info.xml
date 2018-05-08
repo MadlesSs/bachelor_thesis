@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.0"
-    timestamp="1525784584796"
+    timestamp="1525786362979"
     token="6622139087545707505"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,19 +23,15 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-
     <build
         build-mode="FULL"
-        timestamp="1525784047239"
+        timestamp="1525786300987"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -73,11 +69,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1525784584796"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/radovan/Documents/Projects/bachelor_thesis/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1525786362979"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -152,6 +152,9 @@ public class LogInFragment extends AuthFragment{
                         this.getActivity().finish();
                         startActivity(new Intent(getActivity().getApplicationContext(),
                                 TripsList.class));
+                    } else {
+                        Log.d("era", "login: failed!");
+                        Toast.makeText(getContext(), "Please register or reenter password", Toast.LENGTH_SHORT).show();
                     }
                 });
     }

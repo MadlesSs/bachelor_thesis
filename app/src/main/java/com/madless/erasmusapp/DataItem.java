@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataItem {
-    String title;
-    List<StudentCheck> studentCheck;
-    int id;
+    public String title;
+    public List<StudentCheck> studentCheck;
+    public int id;
 
     public DataItem() {
         studentCheck = new ArrayList<>();
